@@ -48,4 +48,15 @@
         <url-pattern>/trapezoid</url-pattern>
     </servlet-mapping>
 
+    <!-- circle trapezoid -->
+    <servlet>
+        <servlet-name>CircleServlet</servlet-name>
+        <servlet-class>app.servlets.CircleServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CircleServlet</servlet-name>
+        <url-pattern>/circle</url-pattern>
+    </servlet-mapping>
+
 </web-app>
